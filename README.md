@@ -1,5 +1,7 @@
 # Vue 3 + Chart.js Demo
 
+[Demo](https://vue-3-chart-js.netlify.app/)
+
 ## Chart Types
 
 - [ ] Area
