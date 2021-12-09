@@ -2,16 +2,16 @@
 
 ## Chart Types
 
-- [] Area
-- [] Bar
-- [] Bubble
-- [] Doughnut
+- [ ] Area
+- [ ] Bar
+- [ ] Bubble
+- [ ] Doughnut
 - [x] Line
-- [] Mixed
-- [] Pie
-- [] Polar area
-- [] Radar
-- [] Scatter
+- [ ] Mixed
+- [ ] Pie
+- [ ] Polar area
+- [ ] Radar
+- [ ] Scatter
 
 ## Data Source
 
