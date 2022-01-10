@@ -1,29 +1,35 @@
 <template>
   <div v-if="error">{{ error }}</div>
 
-  <Suspense>
-    <template #default>
-      <LineChart />
-    </template>
-
-    <template #fallback>Loading your line chart...</template>
-  </Suspense>
-  <!-- <BarChart />
-    <RadarChart />
-    <DoughnutChart />
-    <PieChart />
-    <PolarAreaChart />
-    <BubbleChart />
-    <ScatterChart />
-    <AreaChart />
-  <MixedChart />-->
+  <ChartTypes />
+  <hr />
+  <LineChart />
+  <hr />
+  <BarChart />
+  <hr />
+  <RadarChart />
+  <!-- <hr />
+  <DoughnutChart />
+  <hr />
+  <PieChart />
+  <hr />
+  <PolarAreaChart />
+  <hr />
+  <BubbleChart />
+  <hr />
+  <ScatterChart />
+  <hr />
+  <AreaChart />
+  <hr />
+  <MixedChart /> -->
 </template>
 
 <script setup>
 import { ref, onErrorCaptured } from "vue"
+import ChartTypes from "./components/ChartTypes.vue"
 import LineChart from "./components/LineChart.vue"
-// import BarChart from "./components/BarChart.vue"
-// import RadarChart from "./components/RadarChart.vue"
+import BarChart from "./components/BarChart.vue"
+import RadarChart from "./components/RadarChart.vue"
 // import DoughnutChart from "./components/DoughnutChart.vue"
 // import PieChart from "./components/PieChart.vue"
 // import PolarAreaChart from "./components/PolarAreaChart.vue"
@@ -55,5 +61,10 @@ onErrorCaptured((e) => (error.value = e))
 .chart-container {
   border: 0.25rem solid var(--background);
   border-radius: 0.5rem;
+}
+
+hr {
+  border: 0.25rem dashed var(--background);
+  margin: 3rem 0;
 }
 </style>
