@@ -1,5 +1,5 @@
 <template>
-  <h1>Line Chart</h1>
+  <h2 id="line">Line Chart</h2>
 
   <LineChart
     :chart-data="data"
@@ -175,7 +175,6 @@ const options = ref({
   },
   scales: {
     y: {
-      beginAtZero: true,
       min: 0,
       ticks: {
         precision: 0
