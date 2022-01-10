@@ -5,21 +5,23 @@
 ## Chart Types
 
 - [ ] Area
-- [ ] Bar
+- [x] Bar
 - [ ] Bubble
 - [ ] Doughnut
 - [x] Line
 - [ ] Mixed
 - [ ] Pie
 - [ ] Polar area
-- [ ] Radar
+- [x] Radar
 - [ ] Scatter
 
 ## Data Source
 
-| Chart Type | API                                                        |
-| ---------- | ---------------------------------------------------------- |
-| Line       | [COVID-19](https://rapidapi.com/api-sports/api/covid-193/) |
+| Chart Type | API                                                         |
+| ---------- | ----------------------------------------------------------- |
+| Bar        | [COVID-19](https://rapidapi.com/api-sports/api/covid-193/)  |
+| Line       | [COVID-19](https://rapidapi.com/api-sports/api/covid-193/)  |
+| Radar      | [Pokemon Go](https://rapidapi.com/Chewett/api/pokemon-go1/) |
 
 ## Steps
 
